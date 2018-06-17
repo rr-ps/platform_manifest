@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="rrps"
+           fetch="https://github.com/rr-ps"
+           />
+
+  <project path="frameworks/av" name="android_frameworks_av" remote="rrps" revision="lineage-15.1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="rrps" revision="oreo" />
+  <project path="frameworks/native" name="frameworks_native" remote="rrps" revision="oreo" />
+  <project path="system/core" name="system_core" remote="rrps" revision="oreo" />
+
+  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="rrps" revision="oreo" />
+  <project path="vendor/rr" name="android_vendor_resurrection" remote="rrps" revision="oreo" />
+
+</manifest>
