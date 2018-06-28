@@ -6,8 +6,9 @@
            review="review.lineageos.org" />
 
   <remote  name="rr"
-           fetch="https://github.com/ResurrectionRemix"
-           revision="oreo" />
+           fetch="https://github.com/"
+           revision="oreo"
+	   review="gerrit.resurrectionremix.com" />
 
   <remote  name="rr-devices"
            fetch="https://github.com/ResurrectionRemix-Devices"
@@ -211,7 +212,6 @@
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" remote="aosp" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk" remote="aosp" />
   <project path="external/libvncserver" name="platform/external/libvncserver" groups="pdk" remote="aosp" />
-  <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" groups="pdk" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" remote="aosp" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" remote="aosp" />
   <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" remote="aosp" />
@@ -521,7 +521,7 @@
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" remote="aosp" />
-  <project path="system/security" name="platform/system/security" groups="pdk" remote="aosp" />
+  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/timezone" name="platform/system/timezone" groups="pdk" remote="aosp" />
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
