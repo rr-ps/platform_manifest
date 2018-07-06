@@ -2,8 +2,10 @@
 <manifest>
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="ResurrectionRemix/android_frameworks_base" />
-  <remove-project name="frameworks_native" />
-  <remove-project name="system_core" />
+  <remove-project name="ResurrectionRemix/frameworks_native" />
+  <remove-project name="ResurrectionRemix/system_core" />
   <remove-project name="ResurrectionRemix/Resurrection_packages_apps_Settings" />
   <remove-project name="ResurrectionRemix/android_vendor_resurrection" />
+  <!-- remove-project name="LineageOS/android_hardware_qcom_thermal" / -->
+  <!-- remove-project name="LineageOS/android_hardware_qcom_vr" / -->
 </manifest>
