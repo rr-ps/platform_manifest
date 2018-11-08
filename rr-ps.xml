@@ -2,8 +2,10 @@
 <manifest>
   <remote  name="rrps"
            fetch="https://github.com/rr-ps"
+           revision="oreo"
            />
 
+  <project path="android" name="platform_manifest" remote="rrps" />
   <project path="frameworks/av" name="android_frameworks_av" remote="rrps" revision="lineage-15.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="rrps" revision="oreo" />
   <project path="frameworks/native" name="frameworks_native" remote="rrps" revision="oreo" />

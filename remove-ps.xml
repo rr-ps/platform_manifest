@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="ResurrectionRemix/platform_manifest" />
   <remove-project name="LineageOS/android_frameworks_av" />
   <remove-project name="ResurrectionRemix/android_frameworks_base" />
   <remove-project name="ResurrectionRemix/frameworks_native" />
